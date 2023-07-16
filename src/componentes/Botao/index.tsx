@@ -3,7 +3,7 @@ import './Botao.css'
 
 
 interface BotaoProps {
-    children: ReactElement
+    children: ReactElement | string
 }
 
 export const Botao = (props: BotaoProps) => {
