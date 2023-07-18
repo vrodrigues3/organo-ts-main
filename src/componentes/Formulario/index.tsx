@@ -11,7 +11,7 @@ interface FormularioProps {
 
 }
 
-const Formulario = (props: FormularioProps) => {
+export const Formulario = (props: FormularioProps) => {
     const { aoColaboradorCadastrado, times } = props
 
     const [nome, setNome] = useState('')
@@ -72,4 +72,3 @@ const Formulario = (props: FormularioProps) => {
     )
 }
 
-export default Formulario

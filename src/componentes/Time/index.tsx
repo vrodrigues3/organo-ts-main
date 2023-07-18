@@ -10,7 +10,7 @@ interface TimeProps {
     colaboradores: IColaborador[]
 }
 
-const Time = (props: TimeProps) => {
+export const Time = (props: TimeProps) => {
 
     const { colaboradores, corPrimaria, corSecundaria, nome } = props
     const css = { backgroundColor: corSecundaria }
@@ -30,8 +30,7 @@ const Time = (props: TimeProps) => {
                 )}
             </div>
         </section> 
-        : ''
+        : <></>
     )
 }
 
-export default Time
